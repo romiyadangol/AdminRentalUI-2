@@ -40,14 +40,14 @@ namespace AdminRentalUI
         private void btnLogin_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Dashboard dsa = new Dashboard();
+            Dashboard2 dsa = new Dashboard2();
             dsa.Show();
         }
 
         private void bunifuLabel1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Dashboard dsa = new Dashboard();
+            Dashboard2 dsa = new Dashboard2();
             dsa.Show();
         }
     }

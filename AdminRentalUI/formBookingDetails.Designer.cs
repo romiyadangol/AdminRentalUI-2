@@ -28,15 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.siticoneDataGridView1 = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
-            this.Btn_view = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.Btn_edit = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.Btn_delete = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.Btn_add = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,31 +41,34 @@
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Btn_view = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.Btn_edit = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.Btn_delete = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.Btn_add = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             ((System.ComponentModel.ISupportInitialize)(this.siticoneDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneDataGridView1
             // 
             this.siticoneDataGridView1.AllowUserToResizeRows = false;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.siticoneDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.siticoneDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.siticoneDataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.siticoneDataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.siticoneDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.siticoneDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siticoneDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.siticoneDataGridView1.ColumnHeadersHeight = 40;
             this.siticoneDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.siticoneDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -81,29 +80,30 @@
             this.Column13,
             this.Column14,
             this.Column15});
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.siticoneDataGridView1.DefaultCellStyle = dataGridViewCellStyle11;
-            this.siticoneDataGridView1.Location = new System.Drawing.Point(33, 118);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.siticoneDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.siticoneDataGridView1.Location = new System.Drawing.Point(22, 76);
+            this.siticoneDataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.siticoneDataGridView1.Name = "siticoneDataGridView1";
             this.siticoneDataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.siticoneDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siticoneDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.siticoneDataGridView1.RowHeadersVisible = false;
             this.siticoneDataGridView1.RowHeadersWidth = 82;
             this.siticoneDataGridView1.RowTemplate.Height = 33;
-            this.siticoneDataGridView1.Size = new System.Drawing.Size(1502, 757);
+            this.siticoneDataGridView1.Size = new System.Drawing.Size(1001, 473);
             this.siticoneDataGridView1.TabIndex = 21;
             this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
             this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -126,87 +126,6 @@
             this.siticoneDataGridView1.ThemeStyle.RowsStyle.Height = 33;
             this.siticoneDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.siticoneDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // Btn_view
-            // 
-            this.Btn_view.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_view.Animated = true;
-            this.Btn_view.AutoRoundedCorners = true;
-            this.Btn_view.BorderColor = System.Drawing.Color.CornflowerBlue;
-            this.Btn_view.BorderRadius = 33;
-            this.Btn_view.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_view.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_view.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_view.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_view.FillColor = System.Drawing.Color.RoyalBlue;
-            this.Btn_view.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.Btn_view.ForeColor = System.Drawing.Color.White;
-            this.Btn_view.Location = new System.Drawing.Point(978, 884);
-            this.Btn_view.Name = "Btn_view";
-            this.Btn_view.Size = new System.Drawing.Size(180, 68);
-            this.Btn_view.TabIndex = 17;
-            this.Btn_view.Text = "View";
-            // 
-            // Btn_edit
-            // 
-            this.Btn_edit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_edit.Animated = true;
-            this.Btn_edit.AutoRoundedCorners = true;
-            this.Btn_edit.BorderColor = System.Drawing.Color.CornflowerBlue;
-            this.Btn_edit.BorderRadius = 33;
-            this.Btn_edit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_edit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_edit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_edit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_edit.FillColor = System.Drawing.Color.RoyalBlue;
-            this.Btn_edit.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.Btn_edit.ForeColor = System.Drawing.Color.White;
-            this.Btn_edit.Location = new System.Drawing.Point(1164, 884);
-            this.Btn_edit.Name = "Btn_edit";
-            this.Btn_edit.Size = new System.Drawing.Size(180, 68);
-            this.Btn_edit.TabIndex = 18;
-            this.Btn_edit.Text = "Edit";
-            // 
-            // Btn_delete
-            // 
-            this.Btn_delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_delete.Animated = true;
-            this.Btn_delete.AutoRoundedCorners = true;
-            this.Btn_delete.BorderColor = System.Drawing.Color.CornflowerBlue;
-            this.Btn_delete.BorderRadius = 33;
-            this.Btn_delete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_delete.FillColor = System.Drawing.Color.RoyalBlue;
-            this.Btn_delete.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.Btn_delete.ForeColor = System.Drawing.Color.White;
-            this.Btn_delete.Location = new System.Drawing.Point(1350, 884);
-            this.Btn_delete.Name = "Btn_delete";
-            this.Btn_delete.Size = new System.Drawing.Size(180, 68);
-            this.Btn_delete.TabIndex = 19;
-            this.Btn_delete.Text = "Delete";
-            // 
-            // Btn_add
-            // 
-            this.Btn_add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_add.Animated = true;
-            this.Btn_add.AutoRoundedCorners = true;
-            this.Btn_add.BorderColor = System.Drawing.Color.CornflowerBlue;
-            this.Btn_add.BorderRadius = 33;
-            this.Btn_add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_add.FillColor = System.Drawing.Color.RoyalBlue;
-            this.Btn_add.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.Btn_add.ForeColor = System.Drawing.Color.White;
-            this.Btn_add.Location = new System.Drawing.Point(1355, 44);
-            this.Btn_add.Name = "Btn_add";
-            this.Btn_add.Size = new System.Drawing.Size(180, 68);
-            this.Btn_add.TabIndex = 20;
-            this.Btn_add.Text = "Add";
-            this.Btn_add.Click += new System.EventHandler(this.Btn_add_Click);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -256,19 +175,103 @@
             this.Column15.MinimumWidth = 10;
             this.Column15.Name = "Column15";
             // 
+            // Btn_view
+            // 
+            this.Btn_view.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_view.Animated = true;
+            this.Btn_view.AutoRoundedCorners = true;
+            this.Btn_view.BorderColor = System.Drawing.Color.CornflowerBlue;
+            this.Btn_view.BorderRadius = 21;
+            this.Btn_view.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_view.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_view.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_view.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_view.FillColor = System.Drawing.Color.RoyalBlue;
+            this.Btn_view.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.Btn_view.ForeColor = System.Drawing.Color.White;
+            this.Btn_view.Location = new System.Drawing.Point(655, 562);
+            this.Btn_view.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn_view.Name = "Btn_view";
+            this.Btn_view.Size = new System.Drawing.Size(120, 44);
+            this.Btn_view.TabIndex = 17;
+            this.Btn_view.Text = "View";
+            // 
+            // Btn_edit
+            // 
+            this.Btn_edit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_edit.Animated = true;
+            this.Btn_edit.AutoRoundedCorners = true;
+            this.Btn_edit.BorderColor = System.Drawing.Color.CornflowerBlue;
+            this.Btn_edit.BorderRadius = 21;
+            this.Btn_edit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_edit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_edit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_edit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_edit.FillColor = System.Drawing.Color.RoyalBlue;
+            this.Btn_edit.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.Btn_edit.ForeColor = System.Drawing.Color.White;
+            this.Btn_edit.Location = new System.Drawing.Point(779, 562);
+            this.Btn_edit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn_edit.Name = "Btn_edit";
+            this.Btn_edit.Size = new System.Drawing.Size(120, 44);
+            this.Btn_edit.TabIndex = 18;
+            this.Btn_edit.Text = "Edit";
+            // 
+            // Btn_delete
+            // 
+            this.Btn_delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_delete.Animated = true;
+            this.Btn_delete.AutoRoundedCorners = true;
+            this.Btn_delete.BorderColor = System.Drawing.Color.CornflowerBlue;
+            this.Btn_delete.BorderRadius = 21;
+            this.Btn_delete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_delete.FillColor = System.Drawing.Color.RoyalBlue;
+            this.Btn_delete.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.Btn_delete.ForeColor = System.Drawing.Color.White;
+            this.Btn_delete.Location = new System.Drawing.Point(903, 562);
+            this.Btn_delete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn_delete.Name = "Btn_delete";
+            this.Btn_delete.Size = new System.Drawing.Size(120, 44);
+            this.Btn_delete.TabIndex = 19;
+            this.Btn_delete.Text = "Delete";
+            // 
+            // Btn_add
+            // 
+            this.Btn_add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_add.Animated = true;
+            this.Btn_add.AutoRoundedCorners = true;
+            this.Btn_add.BorderColor = System.Drawing.Color.CornflowerBlue;
+            this.Btn_add.BorderRadius = 21;
+            this.Btn_add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_add.FillColor = System.Drawing.Color.RoyalBlue;
+            this.Btn_add.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.Btn_add.ForeColor = System.Drawing.Color.White;
+            this.Btn_add.Location = new System.Drawing.Point(903, 28);
+            this.Btn_add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btn_add.Name = "Btn_add";
+            this.Btn_add.Size = new System.Drawing.Size(120, 44);
+            this.Btn_add.TabIndex = 20;
+            this.Btn_add.Text = "Add";
+            this.Btn_add.Click += new System.EventHandler(this.Btn_add_Click);
+            // 
             // formBookingDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(1562, 964);
+            this.ClientSize = new System.Drawing.Size(1041, 617);
             this.Controls.Add(this.siticoneDataGridView1);
             this.Controls.Add(this.Btn_view);
             this.Controls.Add(this.Btn_edit);
             this.Controls.Add(this.Btn_delete);
             this.Controls.Add(this.Btn_add);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "formBookingDetails";
             this.Text = "formBookingDetails";
             ((System.ComponentModel.ISupportInitialize)(this.siticoneDataGridView1)).EndInit();

@@ -66,8 +66,8 @@
     <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Siticone.Desktop.UI">
-      <HintPath>..\..\..\..\..\SiticoneFrameWorkCracked-main\Siticone.Desktop.UI.dll</HintPath>
+    <Reference Include="Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Siticone.Desktop.UI.2.1.1\lib\net40\Siticone.Desktop.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -121,6 +121,12 @@
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard2.Designer.cs">
+      <DependentUpon>Dashboard2.cs</DependentUpon>
     </Compile>
     <Compile Include="formBookingDetails.cs">
       <SubType>Form</SubType>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard2.resx">
+      <DependentUpon>Dashboard2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formBookingDetails.resx">
       <DependentUpon>formBookingDetails.cs</DependentUpon>
